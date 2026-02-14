@@ -1,4 +1,4 @@
-Workflow Architecture – Node-by-Node Explanation
+### Workflow Architecture – Node-by-Node Explanation
 1. Manual Trigger Node
 Purpose:
 Starts the workflow manually.
@@ -8,6 +8,7 @@ It begins only when manually executed.
 This ensures controlled testing and execution.
 Role in System:
 Acts as the starting point for the entire automation process.
+###
 2. Code Node – Random Query Idea Generation
 Purpose:
 Generates dynamic search ideas to avoid repeated results.
@@ -22,6 +23,7 @@ Copy code
 site:youtube.com/@ "forex trading" "50K subscribers"
 Role in System:
 Prevents duplicate influencer profiles and ensures continuous discovery of new leads.
+### 
 3. AI Agent – Query Optimization (Groq API + Think Tool)
 Purpose:
 Refines and optimizes the search query before execution.
@@ -35,7 +37,8 @@ Filters out irrelevant results.
 Decides what data fields need extraction.
 Role in System:
 Acts as the intelligent brain of the workflow, ensuring higher-quality search results.
-4. Website Scraper – SerpAPI Integration
+###
+5. Website Scraper – SerpAPI Integration
 Purpose:
 Performs structured Google searches.
 Technology Used:
@@ -53,7 +56,7 @@ Previous tools (Exa AI, ZenRows, Firecrawl, Bing scraping) returned incomplete o
 SerpAPI provided reliable structured search output.
 Role in System:
 Handles search and data retrieval layer.
-5. Code Node – Structured Output & Data Cleaning
+6. Code Node – Structured Output & Data Cleaning
 Purpose:
 Cleans raw search data.
 How It Works:
@@ -73,7 +76,7 @@ Copy code
 }
 Role in System:
 Ensures clean, consistent, CRM-ready data formatting.
-6. AI Email Outreach Generation – Groq API
+7. AI Email Outreach Generation – Groq API
 Purpose:
 Generates personalized collaboration emails.
 How It Works:
@@ -87,7 +90,7 @@ Example Email Concept:
 “Hi John, I came across your forex strategy content on YouTube and was impressed by your analytical breakdown…”
 Role in System:
 Automates scalable but personalized influencer outreach messaging.
-7. Combine Node – Data Merging
+8. Combine Node – Data Merging
 Purpose:
 Merges influencer data with AI-generated email.
 How It Works:
@@ -97,7 +100,7 @@ Personalized email content
 Produces a unified structured object.
 Role in System:
 Prepares final lead package for CRM submission.
-8. Final Structured Output Node
+9. Final Structured Output Node
 Purpose:
 Formats data according to CRM requirements.
 How It Works:
@@ -106,7 +109,7 @@ Removes formatting errors.
 Prepares payload for HubSpot API.
 Role in System:
 Acts as final validation layer before CRM push.
-9. HubSpot CRM Integration
+10. HubSpot CRM Integration
 Platform Used:
 HubSpot CRM
 Challenge Faced:
