@@ -1,4 +1,4 @@
-l🚀 ### WORKFLOW ARCHITECTURE – NODE-BY-NODE EXPLANATION
+🚀 WORKFLOW ARCHITECTURE – NODE-BY-NODE EXPLANATION
 1️⃣ MANUAL TRIGGER NODE
 Purpose
 Starts the workflow manually.
@@ -10,7 +10,7 @@ Role in System
 Acts as the starting point of the entire automation process.
 ----
 
-2️⃣ ### CODE NODE – RANDOM QUERY IDEA GENERATION
+2️⃣ CODE NODE – RANDOM QUERY IDEA GENERATION
 Purpose
 Generates dynamic search ideas to avoid repeated results.
 How It Works
@@ -24,7 +24,7 @@ Role in System
 Prevents duplicate influencer profiles and ensures continuous discovery of new leads.
 ----
 
-3️⃣ ### AI AGENT – QUERY OPTIMIZATION (GROQ API + THINK TOOL)
+3️⃣ AI AGENT – QUERY OPTIMIZATION (GROQ API + THINK TOOL)
 Purpose
 Refines and optimizes the search query before execution.
 Technology Used
@@ -39,7 +39,7 @@ Role in System
 Acts as the intelligent brain of the workflow, ensuring high-quality search results.
 ----
 
-4️⃣ ### WEBSITE SCRAPER – SERPAPI INTEGRATION
+4️⃣ WEBSITE SCRAPER – SERPAPI INTEGRATION
 Purpose
 Performs structured Google searches.
 Technology Used
@@ -59,7 +59,7 @@ Role in System
 Handles the search and data retrieval layer.
 ----
 
-5️⃣ ### CODE NODE – STRUCTURED OUTPUT & DATA CLEANING
+5️⃣  CODE NODE – STRUCTURED OUTPUT & DATA CLEANING
 Purpose
 Cleans and formats raw search data.
 How It Works
@@ -72,7 +72,7 @@ Role in System
 Ensures clean, consistent, CRM-ready data formatting.
 ----
 
-6️⃣ ### AI EMAIL OUTREACH GENERATION – GROQ API
+6️⃣  AI EMAIL OUTREACH GENERATION – GROQ API
 Purpose
 Generates personalized collaboration emails.
 How It Works
@@ -88,7 +88,7 @@ Role in System
 Automates scalable yet personalized influencer outreach messaging.
 ----
 
-7️⃣ ###COMBINE NODE – DATA MERGING
+7️⃣ COMBINE NODE – DATA MERGING
 Purpose
 Merges influencer data with AI-generated email.
 How It Works
@@ -100,7 +100,7 @@ Role in System
 Prepares the final lead package for CRM submission.
 ----
 
-8️⃣ ### FINAL STRUCTURED OUTPUT NODE
+8️⃣  FINAL STRUCTURED OUTPUT NODE
 Purpose
 Formats data according to CRM requirements.
 How It Works
@@ -111,7 +111,7 @@ Role in System
 Acts as the final validation layer before CRM submission.
 ----
 
-9️⃣ ### HUBSPOT CRM INTEGRATION
+9️⃣  HUBSPOT CRM INTEGRATION
 Platform Used
 HubSpot CRM
 Challenge Faced
@@ -125,4 +125,8 @@ Tasks act as research reminders.
 Once an email is found, the lead is converted into a complete contact.
 Role in System
 Stores and manages influencer partnership pipeline.
-https://github.com/user-attachments/assets/77f7599f-3a2d-4926-927b-6e262d51b6e6
+
+
+https://github.com/user-attachments/assets/167f4ce1-187b-4c0b-9491-edd5eddfd32e
+
+
